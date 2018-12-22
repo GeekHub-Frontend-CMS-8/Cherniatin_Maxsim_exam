@@ -1,0 +1,73 @@
+.header {
+  background: url("../img/header_img.png") no-repeat center/cover;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 247px;
+  }
+  &__link {
+    text-decoration: none;
+    color: #ffffff;
+    font: 700 16px $font-lato;
+    &:hover {
+      background-color: #74c7d5;
+      transition: 0.3s;
+    }
+  }
+  &__container--title {
+    text-align: center;
+  }
+  &__title {
+    color: #ffffff;
+    font: 700 36px $font-lato;
+    margin-bottom: 13px;
+  }
+  &__description {
+    color: #ffffff;
+    font: 500 16px $font-lato;
+    margin-bottom: 26px;
+  }
+  &__container--button {
+    display: flex;
+    justify-content: center;
+  }
+  &__button {
+    font: 700 12px $font-lato;
+    border: 1px solid #ffffff;
+    letter-spacing: 1.8px;
+    padding: 20px 31px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #16a085;
+    text-decoration: none;
+    margin-bottom: 222px;
+    color: #ffffff;
+    &:hover {
+      background-color: #15a4fa;
+    }
+  }
+  &__list--social {
+    display: flex;
+    justify-content: center;
+  }
+  &__item--social {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  &__social--link {
+    .fa-twitter,
+    .fa-flickr,
+    .fa-basketball-ball {
+      max-width: 23px;
+      width: 100%;
+      border-radius: 100%;
+      color: #ffffff;;
+      padding: 7px 7px;
+      &:hover {
+        background-color: #15a4fa;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.section-second {
+  background-color: #f5f6f7;
+  padding-top: 91px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 583px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  &__title {
+    color: #16a085;
+    font: 700 18px $font-lato;
+    letter-spacing: 2.7px;
+    margin-bottom: 49px;
+  }
+  &__description {
+    max-width: 428px;
+    margin-bottom: 47px;
+    font: 400 12px/24px $font-lato;
+    color: #373737;
+  }
+  &__button {
+    font: 700 12px $font-lato;
+    border: 1px solid #ffffff;
+    letter-spacing: 1.8px;
+    padding: 20px 31px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #16a085;
+    text-decoration: none;
+    margin-bottom: 222px;
+    color: #ffffff;
+    &:hover {
+      background-color: #15a4fa;
+    }
+  }
+  &__wrapper-img {
+    max-width: 658px;
+    display: block;
+    img {
+      max-width: 100%;
+
+    }
+
+  }
+}
